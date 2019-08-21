@@ -82,4 +82,4 @@ Implement the delighting in the YCbCr or CIELab color space, to prevent color sh
 ## License
 OpenCV plus Unity is adapted from OpenCVSharp, wich is licensed under the BSD-3 clause license (https://github.com/shimat/opencvsharp/blob/master/LICENSE)
 
-The C# code of the app and the Unity project is MIT licensed : https://github.com/github-for-unity/Unity/blob/master/LICENSE [copy file]
+The C# code of the app and the Unity project is MIT licensed : https://github.com/github-for-unity/Unity/blob/master/LICENSE
