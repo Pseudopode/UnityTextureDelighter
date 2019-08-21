@@ -1,4 +1,4 @@
-![Delighting Example](delighting_example.png "")
+![Delighting Example](Documentation/delighting_example.png "")
 
 # Quick’n’dirty Delighter V1.0
 
@@ -17,26 +17,26 @@ The app has been tested on OSX and Windows 10.
 
 On application start, the majority of the buttons are disabled.
 
-![Image001](image001.png "")
+![Image001](Documentation/image001.png "")
 
 You need to load a texture via the **'Load file'** button
 
-![Image002](image002.png "")
+![Image002]Documentation/(image002.png "")
 
 When the texture is loaded, you can see it appearing in the **'Input'** panel.
 
 When you modify the size of the blur kernel, you will change the **'scale'** of the highlights/shadows that will be removed.
 
-![Image003](image003.png "")
+![Image003](Documentation/image003.png "")
 
 Blur Kernel of 205-wide and blur kernel 97-wide. Notice how the shadow blob disappears from the image with the second value.
 
-![Image004](image004.png "")
+![Image004](Documentation/image004.png "")
 
 Press « Run Delighting » to execute the process, and display the result.
 The « Save result » button will save on disk the image displayed in the **'Final Result'** panel.
 
-![Image005](image005.png "")
+![Image005](Documentation/image005.png "")
 
 The algorithm works well when there's only *one* 'mix' or variation of a color. For example yellow on black, has in the provided example.
 If you have two (or more) color mixed, it's better to delight the Y channel of an YCbCr/YUV color (to avoid losing colors).
